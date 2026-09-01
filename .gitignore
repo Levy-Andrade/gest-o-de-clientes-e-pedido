@@ -1,0 +1,34 @@
+# Build & Binaries (.NET)
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+
+# Logs & Temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Docker volume data
+sqlserver_data/
